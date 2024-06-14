@@ -1,0 +1,43 @@
+/* body {
+    
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 55.5px;
+    margin-left: 55.5px;
+}
+
+.item {
+    margin-top: 7px;
+    margin-right: 50px;
+}
+
+.navigation {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.client-part {
+    display: flex;
+}
+
+.info-list {
+    display: flex;
+    height: 244px;
+    z-index: -1;
+    background-color: rgb(223, 212, 212);
+}
+
+.background {
+    display: flex;
+} */
