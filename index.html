@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/layout/main-header.css">
+    <link  rel="stylesheet" href="./css/pages/index/filter.css">
     <link rel="stylesheet" href="./css/pages/index/product.css">
     <link rel="stylesheet" href="./css/layout/main-footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -50,7 +51,7 @@
         <section class="catalog">
             <div class="container">
                 <h1>Женская одежда</h1>
-                <search>
+                <div class="search">
                     <ul class="filter-list">
                         <li class="filter-list-item">
                             <label for="category">Категория</label>
@@ -77,81 +78,95 @@
                             </select>
                         </li>
                     </ul>
-                </search>
-                
-                <div class="product-container">
-                    <ul class="product-list">
-                        <li class="product-list-item">
-                            <a href="#">
-                                <img src="./img/products/black.jpg" width="270" height="370" alt="">
-                            </a>
-                            <div class="product-info">
-                                <h3 class="product-title">
-                                    <a href="#">Платье-комбинация Black</a>
-                                </h3>
-                                <a class="favorite-btn" href="#">
-                                    <img src="./img/icons/like.svg" width="26" height="26" alt="">
-                                </a>
-                            </div>
-                            <a href="#">
-                                <strong class="product-price">4 500 &#8381;</strong>
-                            </a>
-                        </li>
-                        <li class="product-list-item">
-                            <a href="#">
-                                <img src="./img/products/c-beige.jpg"  width="270" height="370" alt="">
-                            </a>
-                            <div class="product-info">
-                                <h3 class="product-title">
-                                    <a href="#">Костюм Beige</a>
-                                </h3>
-                                <a class="favorite-btn" href="#">
-                                    <img src="./img/icons/like.svg" width="26" height="26" alt="">
-                                </a>
-                            </div>
-                            <a href="#">
-                                <strong class="product-price">8 500 &#8381;</strong>
-                            </a>
-                        </li>
-                        <li class="product-list-item">
-                            <a href="#">
-                                <img src="./img/products/duon.jpg"  width="270" height="370" alt="">
-                            </a>
-                            <div class="product-info">
-                                <h3 class="product-title">
-                                    <a href="#">Пиджак Duon</a>
-                                </h3>
-                                <a class="favorite-btn" href="#">
-                                    <img src="./img/icons/like.svg" width="26" height="26" alt="">
-                                </a>
-                            </div>
-                            <a href="#">
-                                <strong class="product-price">7 500 &#8381;</strong>
-                            </a>
-                        </li>
-                        <li class="product-list-item">
-                            <a href="#">
-                                <img src="./img/products/flax.jpg"  width="270" height="370" alt="">
-                            </a>
-                            <div class="product-info">
-                                <h3 class="product-title">
-                                    <a href="#">Пальто Flax</a>
-                                </h3>
-                                <a class="favorite-btn" href="#">
-                                    <img src="./img/icons/like.svg" width="26" height="26" alt="">
-                                </a>
-                            </div>
-                            <a href="#">
-                                <strong class="product-price">13 500 &#8381;</strong>
-                            </a>
-                        </li>
-                    </ul>
-
                 </div>
-                <div class="next">
-                    <div class="box">
-                        <a class="load-more-btn" href="#">Загрузить еще</a>
-                    </div>
+                
+                <ul class="product-list">
+                    <li class="product-list-item">
+                        <a href="#">
+                            <img 
+                                class="product-image" 
+                                src="./img/products/black.jpg" 
+                                width="270" 
+                                height="350" 
+                                alt=""
+                            >
+                        </a>
+                        <div class="product-info">
+                            <h3 class="product-title">
+                                <a href="#">Платье-комбинация Black</a>
+                            </h3>
+                            <a class="favorite-btn" href="#">
+                                <img src="./img/icons/like.svg" width="26" height="26" alt="">
+                            </a>
+                        </div>
+                        <strong class="product-price">4 500 &#8381;</strong>
+                    </li>
+
+                    <li class="product-list-item">
+                        <a href="#">
+                            <img 
+                                class="product-image" 
+                                src="./img/products/c-beige.jpg"  
+                                width="270" 
+                                height="350" 
+                                alt=""
+                            >
+                        </a>
+                        <div class="product-info">
+                            <h3 class="product-title">
+                                <a href="#">Костюм Beige</a>
+                            </h3>
+                            <a class="favorite-btn" href="#">
+                                <img src="./img/icons/like.svg" width="26" height="26" alt="">
+                            </a>
+                        </div>
+                        <strong class="product-price">8 500 &#8381;</strong>
+                    </li>
+
+                    <li class="product-list-item">
+                        <a href="#">
+                            <img 
+                                class="product-image" src="./img/products/duon.jpg"  
+                                width="270" 
+                                height="350" 
+                                alt=""
+                            >
+                        </a>
+                        <div class="product-info">
+                            <h3 class="product-title">
+                                <a href="#">Пиджак Duon</a>
+                            </h3>
+                            <a class="favorite-btn" href="#">
+                                <img src="./img/icons/like.svg" width="26" height="26" alt="">
+                            </a>
+                        </div>
+                        <strong class="product-price">7 500 &#8381;</strong>
+                    </li>
+
+                    <li class="product-list-item">
+                        <a href="#">
+                            <img 
+                                class="product-image" 
+                                src="./img/products/flax.jpg"  
+                                width="270" 
+                                height="350"
+                                alt=""
+                            >
+                        </a>
+                        <div class="product-info">
+                            <h3 class="product-title">
+                                <a href="#">Пальто Flax</a>
+                            </h3>
+                            <a class="favorite-btn" href="#">
+                                <img src="./img/icons/like.svg" width="26" height="26" alt="">
+                            </a>
+                        </div>
+                        <strong class="product-price">13 500 &#8381;</strong>
+                    </li>
+                </ul>
+
+                <div class="btn-wrapper">
+                    <a class="load-more-btn" href="#">Загрузить еще</a>
                 </div>
             </div>
         </section>
@@ -219,7 +234,7 @@
             <div class="col">
                 <form action="" method="">
                     <label for="email">Подпишитесь на нашу рассылку</label>
-                    <input id="email" type="email" placeholder="example@email.com" required>
+                    <input class="email" type="email" placeholder="example@email.com" required>
                     <input type="image" src="./img/rigth.svg" width="26" height="12" alt="">
                 </form>
             </div>

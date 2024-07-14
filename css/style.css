@@ -2,21 +2,18 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(243, 241, 236);
-    font-family: "Manrope", sans-serif;
+    /* font-family: "Manrope", sans-serif; */
     font-style: normal;
     min-height: 100vh;
 }
 
-/* * {
+* {
     border: 1px solid;
-} */
+    box-sizing: border-box;
+}
 
 .container {
     width: 1170px;
     margin: 0 auto;
-    padding: 0 15px;
-}
-
-.product-container{
-    width: 270px;
+    padding: 0 15px; 
 }

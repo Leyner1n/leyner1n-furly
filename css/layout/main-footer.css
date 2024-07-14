@@ -27,3 +27,8 @@ footer {
     line-height: 2;
     padding-right: 30px;
 }
+
+.main-footer .col .email {
+    display: flex;
+    flex-direction: column;
+}
