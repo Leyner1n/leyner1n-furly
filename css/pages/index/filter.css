@@ -1,0 +1,19 @@
+.search {
+    margin-top: 72px;
+}
+
+.filter-list {
+    display: flex;
+    justify-content: space-between
+}
+
+.filter-list li {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-list li select {
+    margin-top: 40px;
+    height: 40px;
+}
