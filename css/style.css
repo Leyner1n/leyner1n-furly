@@ -2,15 +2,16 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(243, 241, 236);
-    /* font-family: "Manrope", sans-serif; */
+    font-family: "Manrope", sans-serif;
     font-style: normal;
+    font-size: 16px;
     min-height: 100vh;
 }
 
-* {
+/* *:not(.social-list, .social-list li, .output-email) {
     border: 1px solid;
     box-sizing: border-box;
-}
+} */
 
 .container {
     width: 1170px;

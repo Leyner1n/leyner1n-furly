@@ -23,3 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 -Correct header and footer [FL-4]
+
+
+### Added 
+
+-Coreect footer and search-list in main [FL-5]
