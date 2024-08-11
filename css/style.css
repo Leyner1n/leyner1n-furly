@@ -8,13 +8,13 @@ body {
     min-height: 100vh;
 }
 
-/* *:not(.social-list, .social-list li, .output-email) {
+*:not(.social-list, .social-list li) {
     border: 1px solid;
     box-sizing: border-box;
-} */
+}
 
 .container {
     width: 1170px;
     margin: 0 auto;
     padding: 0 15px; 
-}
+}   
