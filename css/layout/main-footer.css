@@ -17,6 +17,11 @@ footer {
 
 .social-list {
     display: flex;
+    align-items: center;
+}
+
+.main-footer .col {
+    height: 120px;
 }
 
 .main-footer .col:nth-child(2) .social-list li {
@@ -28,39 +33,74 @@ footer {
     margin-right: 19px;
 }
 
-.main-footer .col:nth-child(1) a:nth-child(1) {
-    margin-bottom: 20px;
+.main-footer .col:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer .col:nth-child(2) .contact-list{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-footer .col:nth-child(3) ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-footer .col:nth-child(4) form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .main-footer .col:nth-child(1) div {
-    margin-bottom: 10px;
+    margin-top: auto;
+}
+
+.main-footer .col:nth-child(1) a:nth-child(3) {
+    margin-top: 20px;
 }
 
 .main-footer .col:nth-child(1) {
     font-size: 14px;
 }
 
-.main-footer .col:nth-child(2)   .contact-list > li:not(:nth-child(3)) {
-    margin-bottom: 21px;
+.main-footer .col:nth-child(2) .contact-list > li:nth-child(2) {
+    margin-top: auto;
 }
 
-.main-footer .col:nth-child(3) li:not(:nth-child(3)) {  
-    margin-bottom: 21px;
+.main-footer .col:nth-child(2) .contact-list > li:nth-child(3) {
+    margin-top: 20px;
 }
+
+.main-footer .col:nth-child(3) li:nth-child(2) {  
+    margin-top: auto;
+}
+
+.main-footer .col:nth-child(3) ul > li:nth-child(3) {
+    margin-top: 20px;
+}
+
 .main-footer .col:nth-child(4) form .output-email {
-    margin-top: 47px;
+    margin-top: auto;
 }
 
 .main-footer .col:nth-child(4) .output-email {
     display: flex;
     align-items: center;
-    padding-bottom: 10px;
     border-bottom: 1px solid rgba(33, 30, 29, 0.3);
 }
 
 .main-footer .col:nth-child(4) form .output-email input[type=email] {
     background: none;
-    margin-right: 172px;
-    height: 21px;
+    height: 24px;
+    flex-grow: 1;
     border: none;
+}
+
+.main-footer .col:nth-child(4) form .output-email input[type=image] {
+    height: 24px;
 }
