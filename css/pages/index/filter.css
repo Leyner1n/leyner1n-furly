@@ -16,4 +16,9 @@
 .filter-list li select {
     margin-top: 40px;
     height: 40px;
+    outline: none;
+}
+
+.main-footer .col:nth-child(4) form .output-email input {
+    outline: none;
 }
