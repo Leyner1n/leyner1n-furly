@@ -29,12 +29,17 @@ h3 {
     color: rgba(33, 30, 29, 0.5);
 }
 
-
-
 .product-list {
     display: flex;
     justify-content: space-between;
-    margin-top: 72px;
+}
+
+.product-list {
+    margin-top: 50px;
+}
+
+.product-list:nth-child(3) {
+    margin-top: 60px;
 }
 
 .product-list li {
@@ -71,7 +76,7 @@ h3 {
 .btn-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 72px;
+    margin-top: 80px;
 }
 
 .load-more-btn {
