@@ -8,8 +8,8 @@ body {
     min-height: 100vh;
 }
 
-*:not(.social-list, .social-list li) {
-    /* border: 1px solid; */
+*:not(.social-list, .social-list li, img) {
+    border: 1px solid;
     box-sizing: border-box;
 }
 
