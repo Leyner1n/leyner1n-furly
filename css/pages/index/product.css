@@ -19,7 +19,6 @@ h3 {
     width: 270px;
     height: 350px;
     object-position: center;
-
 }
 
 .product .catalog .search .filter-list select {
@@ -32,7 +31,6 @@ h3 {
 .product-list {
     display: flex;
     flex-wrap: wrap;
-    /* margin-top: 50px; */
 }
 
 .product-list:nth-child(3) {
@@ -54,29 +52,33 @@ h3 {
     font-size: 16;
     font-weight: 400;
     margin-top: 10px;
-
 }
 
 .product-list-item {
     display: flex;
     flex-direction: column;
+    width: 272px;
+}
+
+.product-list-item img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .product-list-item:not(:nth-child(4n)) {
-    margin-right: 20px;
+    margin-right: 16px;
 }
 
 .product-list-item:not(:nth-child(-n+4)) {
     margin-top: 50px;
 }
 
-
 .product-info {
     display: flex;
     margin-top: 22px;
     justify-content: space-between;
     font-size: 16px;
-
 }
 
 .btn-wrapper {
